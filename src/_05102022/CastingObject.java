@@ -1,8 +1,8 @@
 package _05102022;
 
 public class CastingObject extends StaticExample {
-    int i;
-    static String s;
+    static int i;
+    private static String s;
 
     private void get() {
     }

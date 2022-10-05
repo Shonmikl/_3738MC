@@ -1,12 +1,10 @@
 package _05102022;
 
-import java.util.Scanner;
-
 public class Casting {
 
 
     short s;
-    double d = 65445.6;
+    static final double d = 65445.6;
     float f = 9999.5f;
     char c = 9999;
     int i1 = c;
@@ -16,21 +14,20 @@ public class Casting {
     static String sss = "Это число равно -> ";
 
     static String str; // [ str ] -> [  ]
-    static byte b = (byte) 200; //-128 +127
-    static int ex = 258;
+    static byte b = (byte) 241; //-128 +127 -->8 bit
+    static int ex = 258; // 16 bit
+    static int tttttt = 1777;
     public static void main(String[] args) {
+        System.out.println((byte) tttttt);
         System.out.println(b);
-        System.out.println((byte) ex);
-//        str = String.valueOf(i);
+ //       System.out.println((byte) ex);
+        str = String.valueOf(i);
 //        System.out.println(str);
- //        System.out.println("Это число равно -> " + i);
+//        System.out.println("Это число равно -> " + i);
 //          System.out.println(sss + 999);
 //        System.out.println(5 + "");
 //        System.out.println(5 + 5);
 //        System.out.println("Mama"+" Мыла");
 //        Person person = new Person(25, "Vera");
-
-
-
     }
 }
