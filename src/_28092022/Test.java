@@ -1,8 +1,10 @@
 package _28092022;
 
+import _05102022.StaticExample;
+
 import java.util.Scanner;
 
-public class Test {
+public class Test extends StaticExample{
 
     /**
      * public - видимость везде
@@ -20,5 +22,6 @@ public class Test {
     public static void main(String[] args) {
         Test test = new Test();
         priceWithoutDiscount = priceWithoutDiscount++;
+        StaticExample.addM();
     }
 }
