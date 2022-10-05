@@ -1,8 +1,5 @@
 package _05102022.animal;
 
-import java.util.ArrayList;
-import java.util.Scanner;
-
 public class Animal {
 }
 

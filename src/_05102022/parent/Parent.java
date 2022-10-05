@@ -1,4 +1,4 @@
-package _05102022.Parent;
+package _05102022.parent;
 
 public class Parent {
     String name;
