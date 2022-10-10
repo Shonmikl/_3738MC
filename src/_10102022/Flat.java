@@ -1,10 +1,10 @@
 package _10102022;
 
 public class Flat {
-    private byte flatQuantity;
-    private byte bathRoom;
-    private int square;
-    private boolean balcony;
+    private byte flatQuantity  = 1;
+    private byte bathRoom = 1;
+    private int square = 30;
+    private boolean balcony = true;
     private Fridge fridge;
 
     public Flat(byte flatQuantity, byte bathRoom, int square, boolean balcony) {
@@ -49,7 +49,8 @@ public class Flat {
 
 class Main1 {
     public static void main(String[] args) {
-        Flat oneRoomFlat = new Flat((byte) 1, (byte) 1, 55, true);
+        Flat oneRoomFlat = new Flat((byte) 1, (byte) 1, 55, false);
+        Flat oneRoomFlat1 = new Flat((byte) 1, (byte) 1, 55, true);
         System.out.println(oneRoomFlat);
     }
 }

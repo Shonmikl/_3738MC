@@ -7,5 +7,17 @@ public class While {
             System.out.println(i);
             i++;
         }
+
+//        do {
+//
+//            int r = 3;
+//            /**
+//         Обязательно выполниться
+//         перед While
+//         */
+//        } while (r < 5) {
+//            System.out.println(i);
+//            r++;
+//        }
     }
 }
