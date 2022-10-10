@@ -1,0 +1,4 @@
+- Создание объектов
+- Конструктор
+- boolean
+- Loops[fori, for, if, while]
