@@ -2,7 +2,6 @@ package _12102022;
 
 import java.util.Arrays;
 import java.util.Random;
-import java.util.Scanner;
 
 public class ArrayEx {
     public static void main(String[] args) {
@@ -29,11 +28,5 @@ public class ArrayEx {
          * */
 
         System.out.println(Arrays.toString(array));
-
-
-
-
-
-
     }
 }

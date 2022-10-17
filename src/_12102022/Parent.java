@@ -1,7 +1,5 @@
 package _12102022;
 
-import java.awt.image.BandCombineOp;
-
 /**
  * 1. Класс
  * 2. Поля
@@ -29,5 +27,6 @@ class Child extends Parent {
 
     public static void main(String[] args) {
         Parent parent = new Parent("Mik", 22);
+        Parent parent1 = new Parent("Mik", 22);
     }
 }
