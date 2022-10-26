@@ -23,7 +23,7 @@ class Main {
 //        Cat cat = (Cat) object; //сужение типов
 //        Object object1 = new Cat();
 
-        Animal animalCat = new Cat();
+        Animal animalCat = new Animal();
         Dog dog = (Dog) animalCat;
         System.out.println(dog);//ошибка кастинга
     }

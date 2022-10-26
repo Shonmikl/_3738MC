@@ -1,13 +1,11 @@
-public class Testqq {
+public class Test1 {
     int num1;
     int num2;
     String operation;
 
-    double getResult(int num1, int num2, String operation){
-        if("-".equals(operation)) {
-            return num1 *num2;
-        }//итд
-        return 0;
+    Object getResult(Object o){
+       //обработка любого объекта
+        return o;
     }
 
     void calc() {
